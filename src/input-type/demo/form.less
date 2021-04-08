@@ -1,0 +1,31 @@
+.root {
+  border: none;
+  margin: 5px 0;
+
+  & > :global(.am-list-item) {
+    width: 364px;
+    border: none;
+    height: 44px;
+
+    :global(.am-input-label) {
+      width: 140px;
+      text-align: right;
+      color: #333333;
+      font-size: 14px;
+      margin-right: 0;
+    }
+
+    :global(.am-input-control) {
+      flex: 1;
+      width: 150px;
+      height: 44px;
+      border-radius: 5px;
+      border: 1px solid rgba(207, 207, 207, 0.867);
+      padding: 0 5px;
+
+      :globa(input) {
+        font-size: 15px;
+      }
+    }
+  }
+}

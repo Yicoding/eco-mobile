@@ -9,3 +9,4 @@ export { default as PickerSelect } from './picker-select';
 export { default as InputWrap } from './input-wrap';
 export { default as ListWrap } from './list-wrap';
 export { default as ItemWrap } from './item-wrap';
+export { default as InputType } from './input-type';
